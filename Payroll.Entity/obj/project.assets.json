@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Payroll.Entity\\Payroll.Entity.csproj",
+      "projectUniqueName": "C:\\Projects\\PayrollProject\\Payroll.Entity\\Payroll.Entity.csproj",
       "projectName": "Payroll.Entity",
-      "projectPath": "C:\\Projects\\Payroll.Entity\\Payroll.Entity.csproj",
+      "projectPath": "C:\\Projects\\PayrollProject\\Payroll.Entity\\Payroll.Entity.csproj",
       "packagesPath": "C:\\Users\\Lorde\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Payroll.Entity\\obj\\",
+      "outputPath": "C:\\Projects\\PayrollProject\\Payroll.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lorde\\AppData\\Roaming\\NuGet\\NuGet.Config",

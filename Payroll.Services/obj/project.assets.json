@@ -3437,11 +3437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Payroll.Services\\Payroll.Services.csproj",
+      "projectUniqueName": "C:\\Projects\\PayrollProject\\Payroll.Services\\Payroll.Services.csproj",
       "projectName": "Payroll.Services",
-      "projectPath": "C:\\Projects\\Payroll.Services\\Payroll.Services.csproj",
+      "projectPath": "C:\\Projects\\PayrollProject\\Payroll.Services\\Payroll.Services.csproj",
       "packagesPath": "C:\\Users\\Lorde\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Payroll.Services\\obj\\",
+      "outputPath": "C:\\Projects\\PayrollProject\\Payroll.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lorde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3458,11 +3458,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\Payroll.Entity\\Payroll.Entity.csproj": {
-              "projectPath": "C:\\Projects\\Payroll.Entity\\Payroll.Entity.csproj"
+            "C:\\Projects\\PayrollProject\\Payroll.Entity\\Payroll.Entity.csproj": {
+              "projectPath": "C:\\Projects\\PayrollProject\\Payroll.Entity\\Payroll.Entity.csproj"
             },
-            "C:\\Projects\\Payroll.Persistence\\Payroll.Persistence.csproj": {
-              "projectPath": "C:\\Projects\\Payroll.Persistence\\Payroll.Persistence.csproj"
+            "C:\\Projects\\PayrollProject\\Payroll.Persistence\\Payroll.Persistence.csproj": {
+              "projectPath": "C:\\Projects\\PayrollProject\\Payroll.Persistence\\Payroll.Persistence.csproj"
             }
           }
         }

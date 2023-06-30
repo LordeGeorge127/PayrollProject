@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JCnvowvmQ072xm+UxQAYAkeZJhttICRR2EwjYfzG/Q7Im/HcWNs38dlwX89lEeb2ItgplYU9Vt2i9GAYiGV70g==",
+  "dgSpecHash": "V7sWCANXJlxtUjs3934JlIwgFVd2M3p0TQpYJqtdJCsUP5ubXopm0Y66juRKwvi5d/2v2L7yJ5h/65MUPgBPVA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Payroll.Persistence\\Payroll.Persistence.csproj",
+  "projectFilePath": "C:\\Projects\\PayrollProject\\Payroll.Persistence\\Payroll.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lorde\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Lorde\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

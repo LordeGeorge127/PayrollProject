@@ -10,3 +10,15 @@ C:\Projects\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.dll
 C:\Projects\Payroll.Entity\obj\Debug\net6.0\refint\Payroll.Entity.dll
 C:\Projects\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.pdb
 C:\Projects\Payroll.Entity\obj\Debug\net6.0\ref\Payroll.Entity.dll
+C:\Projects\PayrollProject\Payroll.Entity\bin\Debug\net6.0\Payroll.Entity.deps.json
+C:\Projects\PayrollProject\Payroll.Entity\bin\Debug\net6.0\Payroll.Entity.dll
+C:\Projects\PayrollProject\Payroll.Entity\bin\Debug\net6.0\Payroll.Entity.pdb
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.csproj.AssemblyReference.cache
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.AssemblyInfoInputs.cache
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.AssemblyInfo.cs
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.csproj.CoreCompileInputs.cache
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.dll
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\refint\Payroll.Entity.dll
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\Payroll.Entity.pdb
+C:\Projects\PayrollProject\Payroll.Entity\obj\Debug\net6.0\ref\Payroll.Entity.dll
