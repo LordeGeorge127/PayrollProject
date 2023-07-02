@@ -12,10 +12,7 @@ namespace Payroll.Services.Repository
         private decimal taxRate;
         private decimal tax;
 
-        public TaxRepository(Appl)
-        {
-            
-        }
+        
         public decimal TaxAmount(decimal totalAmount)
         {
             if (totalAmount <= 1042)
