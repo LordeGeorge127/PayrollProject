@@ -11,7 +11,9 @@ namespace Payroll.Services.Interface
     public interface IpayComputeRepository
     {
         Task CreateAsync(PaymentRecord paymentRecord);
-        PaymentRecord GetById(int id);
+        PaymentRecord GetById(int id); 
+        TaxYear GetYearById(int id);
+
         IEnumerable<PaymentRecord> GetAll();
         IEnumerable<SelectListItem> GetAllTaxYear();
         decimal OvertimeHours(decimal hoursWorked, decimal contractualHours);

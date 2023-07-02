@@ -11,7 +11,7 @@ namespace Payroll.Entity
     {
         public int Id { get; set; }
         [ForeignKey("Employee")]
-        public int  EmployeeID { get; set; }
+        public int  EmployeeId { get; set; }
         public Employee Employee { get; set; }
         public string FullName { get; set; }
         //NATIONAL INSURANCE NUMBER /NHIF

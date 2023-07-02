@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Routing;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using Payroll.Entity;
 using Payroll.Persistence;
@@ -90,6 +91,15 @@ namespace Payroll.Services.Repository
                 HELB = 0m;
             }
             return HELB;
+        }
+
+        public IEnumerable<SelectListItem> GetAllEmployeeforPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
         }
     }
 
