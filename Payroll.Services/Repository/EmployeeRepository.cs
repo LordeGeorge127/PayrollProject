@@ -15,6 +15,7 @@ namespace Payroll.Services.Repository
     {
         private readonly ApplicationDbContext _context;
         private decimal HELB;
+        private decimal fee;
 
         public EmployeeRepository(ApplicationDbContext context)
         {
@@ -52,7 +53,17 @@ namespace Payroll.Services.Repository
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            //if (employee.UnionMember == UnionMember.Yes)
+            //{
+            //    fee = 10m;
+            //}
+            //else
+            //{
+            //    fee = 0m;
+            //};return fee;
+            var fee= employee.UnionMember == UnionMember.Yes ? 10m : 0;
+            return fee;
         }
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
