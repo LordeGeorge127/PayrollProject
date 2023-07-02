@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Payroll.Services.Interface
 {
-    internal interface INHIFContrubutingRepository
+    public interface INHIFContrubutingRepository
     {
+        decimal NHIFContribution(decimal totalAmount);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.EntityFrameworkCore;
 using Payroll.Entity;
 using Payroll.Persistence;
 using Payroll.Services.Interface;
@@ -13,6 +14,7 @@ namespace Payroll.Services.Repository
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly ApplicationDbContext _context;
+        private decimal HELB;
 
         public EmployeeRepository(ApplicationDbContext context)
         {
@@ -55,7 +57,28 @@ namespace Payroll.Services.Repository
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            if (employee.StudentLoan == StudentLoan.Yes && totalAmount > 1750 && totalAmount < 2000)
+            {
+                HELB = 15m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2000 && totalAmount < 2250)
+            {
+                HELB = 38m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2250 && totalAmount < 2500)
+            {
+                HELB = 60m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2500 )
+            {
+                HELB = 83m;
+            }
+            else
+            {
+                HELB = 0m;
+            }
+            return HELB;
         }
     }
 
