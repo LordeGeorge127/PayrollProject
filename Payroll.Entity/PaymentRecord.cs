@@ -20,29 +20,22 @@ namespace Payroll.Entity
         public string PayMonth { get; set; }
         [ForeignKey("TaxYear")]
         public int TaxYearId { get; set; }
-       
         public TaxYear TaxYear { get; set; }
         public string TaxCode { get; set; }
         [Column(TypeName = "money")]
 
         public decimal HourlyRate { get; set; }
         [Column(TypeName = "decimal(18,2)")]
-
         public decimal HoursWorked { get; set; }
         [Column(TypeName = "decimal(18,2)")]
-
         public decimal ContractualHours { get; set; }
         [Column(TypeName = "decimal(18,2)")]
-
         public decimal OverTimeHours { get; set; }
         [Column(TypeName = "money")]
-
         public decimal ContractualEarnings { get; set;}
         [Column(TypeName = "money")]
-
         public decimal OverTimeEarnings { get; set; }
         [Column(TypeName = "money")]
-
         public decimal Tax { get; set; }
         [Column(TypeName = "money")]
 

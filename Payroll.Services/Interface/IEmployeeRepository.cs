@@ -12,6 +12,7 @@ namespace Payroll.Services.Interface
     {
         Task CreateAsync(Employee newEmployee);
         Employee GetById(int employeeId);
+        
         Task UpdateAsync(Employee employee);
         Task UpdateAsync(int id);
         Task DeleteAsync(int employeeId);
